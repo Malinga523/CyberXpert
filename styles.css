@@ -27,8 +27,16 @@ nav {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
     color: #00BFFF;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .nav-list {
@@ -91,6 +99,26 @@ nav {
     margin-top: -50px;
     position: relative;
     z-index: 1;
+}
+
+#news {
+    background-color: #0B3D91;
+    color: #FFFFFF;
+}
+
+#tools {
+    background-color: #008080;
+    color: #FFFFFF;
+}
+
+#vulnerabilities {
+    background-color: #00BFFF;
+    color: #FFFFFF;
+}
+
+#contact {
+    background-color: #ADD8E6;
+    color: #0B3D91;
 }
 
 footer {

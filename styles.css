@@ -7,12 +7,13 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #ADD8E6;
+    color: #0B3D91;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #0B3D91;
+    color: #FFFFFF;
     padding: 1rem 0;
 }
 
@@ -27,6 +28,7 @@ nav {
 
 .logo {
     font-size: 1.5rem;
+    color: #00BFFF;
 }
 
 .nav-list {
@@ -39,14 +41,14 @@ nav {
 }
 
 .nav-list a {
-    color: #fff;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
 }
 
 .nav-list a:hover {
-    color: #ddd;
+    color: #ADD8E6;
 }
 
 .menu-toggle {
@@ -58,7 +60,7 @@ nav {
 .menu-toggle .bar {
     height: 2px;
     width: 25px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     margin: 4px 0;
     transition: all 0.3s ease;
 }
@@ -69,12 +71,13 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #FFFFFF;
     text-align: center;
 }
 
 .home-section h1 {
     font-size: 3rem;
+    color: #00BFFF;
 }
 
 .content-section {
@@ -82,11 +85,17 @@ nav {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #0B3D91;
+    color: #FFFFFF;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
@@ -103,7 +112,7 @@ footer {
         top: 100%;
         left: -100%;
         width: 100%;
-        background-color: #333;
+        background-color: #0B3D91;
         transition: all 0.3s ease;
     }
 
